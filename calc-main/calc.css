@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Acme;
+  font-style: regular;
+  font-weight: 400;
+  src: url(/OFL.txt);
+}
+
+.body {
+  background-image: url;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.calculator {
+  margin: 90px;
+  width: 368px;
+  height: 600px;
+  box-shadow: 0 14px 28px;
+}
+
+.header {
+  height: 100px;
+  padding-top: 37px;
+  padding-bottom: 27px;
+  padding-right: 29px;
+  padding-left: 29px;
+  background-color: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: right;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  padding: 12px;
+  position: relative;
+  z-index: 2;
+}
+
+.btn {
+  border: 3px solid pink;
+  border-radius: 4px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: 3px solid lightpink;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+#input {
+  font-size: 32px;
+  margin-top: 16px;
+}
